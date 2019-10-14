@@ -4,35 +4,62 @@
         <meta charset="uft-8">
         <title>My Portfolio</title>
         <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet"
-                href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+      
     </head>
     <body>
 
       <!-- Header -->
       
-        <header>
+        <header class="logo">
              <h1>Sharon A. Yelverton</h1>
                     
-             <div>
-                    <a href="index.html">About</a><!--
+             <div class="links">
+               <ul>
+                   <a href="index.html">About</a><!--
                     --><a href="portfolio.html">Portfolio</a><!--
                     --><a href="contact.html">Contact</a>
-                 </div>
+                </ul>
+              
+             </div>
         </header>
 
-          <section>
+         <section class="content">
 
             <h2>Contact</h2>
 
-            <div>
-                
+          <div class="input-text">
+
+            <fieldset>
+                  <label>
+                    Name
+                    <input type="text" name="name" placeholder="Whose" required>
+                  </label>
+              <br>
+                  <label>
+                    Email
+                    <input type="email" name="email" placeholder="email@em.com" required>
+                  </label>
+              <br>
+                  <label>
+                    Message
+                    <textarea>
+                    
+                    </textarea>
+                  </label>
+                </fieldset>
+                </div>
+            
+              
+                <input class="btn" type="submit" name="submit" value="Submit">
+
 
             </div>
 
-           
          </section>
           
+         <footer>
+           
+         </footer>
                
         </body>
 
