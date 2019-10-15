@@ -123,8 +123,8 @@ footer, .content::after, .contact::after {
   min-height: 50%;
   margin-bottom: -120px;
   margin-top: 100px;
-  margin-left: 82px;
-  margin-right: 82px;
+  margin-left: 150px;
+  margin-right: 150px;
   padding: 20px;
  /* width: auto;
   height: auto;*/
@@ -142,8 +142,18 @@ fieldset {
   border: 0;
   font-size: 100%;
 }
-label {
-  width: 100px;
+input {
+  width: 100%;
+  border-width: 2px;
+  border-radius: 1px;
+  margin: 8px 0;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+ 
+}
+textarea {
+  width: 100%;
  
 }
 .input-text {
