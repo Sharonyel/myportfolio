@@ -3,8 +3,8 @@
 
   }
 
-  html, body {
-    height: 100%;
+    body {
+    height: 960px;
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
@@ -12,10 +12,10 @@
  .logo {
   background: #ffffff;
   padding: 20px;
-  overflow: auto;
   clear: both;
   width: 100%;
   height: 70px;
+  margin: 0px;
   border-style: solid;
   border-width: 1px;
   border-color: #cccccc;
@@ -33,8 +33,7 @@ h1 {
     height: 70px;
     text-align: center;
     color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
 
@@ -60,11 +59,13 @@ a {
   text-align: center;
 
 }
-.content, .contact {
+.content, .contact, .portfolio {
   background: #ffffff;
   float: left;
   width: 100%;
   height: 100%;
+  background-image: url("../images/triangle-mosaic.png");
+
  
 }
 .content-mat {
@@ -80,15 +81,12 @@ a {
   border-color: #dddddd;
   border-width: 1px;
   border-style: solid;
-  /*position: relative;
-  top: 50; */
 
 }
-.content::after, .contact::after {
+.content::after, .contact::after, .portfolio::after {
   content: "";
   display: block;
 }
-
 h2 {
   color: #4aaaa5;
 }
@@ -96,11 +94,10 @@ h2 {
 img {
   width: 200px;
   height: 200px;
-  float: left;
-  overflow: auto;
   padding: 20px;
   
 }
+
 
 p {
   float: inline-start;
@@ -108,7 +105,7 @@ p {
   padding: 20px;
 }
 
-footer, .content::after, .contact::after {
+footer, .content::after, .contact::after, .portfolio::after {
   height: 120px;
   background: #666666;
   padding: 20px;
@@ -125,22 +122,31 @@ footer, .content::after, .contact::after {
   margin-top: 100px;
   margin-left: 150px;
   margin-right: 150px;
-  padding: 20px;
- /* width: auto;
-  height: auto;*/
+  padding: 25px;
   background: #ffffff;
   border-color: #dddddd;
   border-width: 1px;
   border-style: solid;
-  /*position: relative;
-  top: 50; */
+
+}
+.portfolio-mat {
+  min-height: 75%;
+  margin-bottom: -120px;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 200px;
+  padding: 20px;
+  background: #ffffff;
+  border-color: #dddddd;
+  border-width: 1px;
+  border-style: solid;
 }
 
+
 fieldset {
-  margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  /*font-size: 100%;*/
 }
 input {
   width: 100%;
@@ -157,14 +163,11 @@ textarea {
  
 }
 .input-text {
-  font-size: 100%;
-  margin: 0;
   padding: 0;
   border: 0;
   vertical-align: baseline;
 }
 .btn {
-  border-block-style: 20px;
   display: inline-block;
   margin: 0;
   height: 50px;
@@ -175,120 +178,24 @@ textarea {
 
 }
 
-
-
-
-/* 
-
-margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-
-
-
-
-
-
-.black {
-    background: #666666;
-    padding: 20px;
-    overflow: auto;
-    clear: both;
-    width: 100%;
-    height: 40px;
-    margin-bottom: 0px;
-    position: fixed;
-    bottom: 0;
+.img-1 {
+  top: 6%;
+  left: 2%;
+  float: left;
 }
 
-.green {
-  background: #4aaaa5;
-  padding: 20px;
-  overflow: auto;
-  clear: both;
-  width: 100%;
-  height: 45px;
-  margin-bottom: 0px;
-  position: relative;
-  top: -10;
-  z-index: 2;
+.img-2 {
+  top: 6%;
+  float: left;
+}
+
+.img-3 {
+  right: 20px;
+  bottom: -10px;
+}
+
+.img-4 {
+  bottom: 0;*/
 }
 
 
-
-/*
-  
-  body {
-    font-size: 24px;
-    line-height: 32px;
-    color: #333;
-  }
-  
-  header {
-    padding: 20px;
-    margin-bottom: 20px;
-    color: #333;
-    background: #FFA500;
-  }
-  
-  section {
-    padding: 20px;
-    margin-bottom: 20px;
-    background: #FFA500;
-  }
-  
-  #left {
-    float: left;
-    width: 33.3%;
-    color: #fff;
-    background: #30948D;
-  }
-  
-  #middle {
-    float: left;
-    width: 33.3%;
-    color: #fff;
-    background: #9E1212;
-  }
-  
-  #right {
-    float: left;
-    width: 33.3%;
-    color: #fff;
-    background: #30948D;
-  }
-  
-  #full {
-    width: 100%;
-    overflow: auto;
-    clear: both;
-    color: #fff;
-    background: #394549;
-  }
-  
-  #division {
-    padding: 20px;
-    margin-top: 20px;
-    background: #214fb3;
-  }
-  
-  aside {
-    float: left;
-    width: 33%;
-    height: 200px;
-    padding: 20px;
-    margin-left: 30px;
-    background: #a6b747;
-    border: 1px solid #eee;
-  }
-  
-  footer {
-    padding: 20px;
-    clear: both;
-    background: #FFA500;
-  }
-  */
-  
