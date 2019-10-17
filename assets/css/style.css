@@ -73,8 +73,6 @@ a {
   margin-left: 52px;
   margin-right: 52px;
   padding: 20px;
- /* width: auto;
-  height: auto;*/
   background: #ffffff;
   border-color: #dddddd;
   border-width: 1px;
@@ -141,26 +139,11 @@ footer, .content::after, .contact::after, .portfolio::after {
   border-color: #dddddd;
   border-width: 1px;
   border-style: solid;
-
 }
-.portfolio-mat {
-  min-height: 75%;
-  margin-bottom: -120px;
-  margin-top: 100px;
-  margin-left: 150px;
-  margin-right: 200px;
-  padding: 20px;
-  background: #ffffff;
-  border-color: #dddddd;
-  border-width: 1px;
-  border-style: solid;
-}
-
 
 fieldset {
   padding: 0;
   border: 0;
-  /*font-size: 100%;*/
 }
 input {
   width: 100%;
@@ -191,62 +174,81 @@ textarea {
   font-size: 24px;
 
 }
- /*.portfolio-mat  img {
+
+.portfolio-mat {
+  min-height: 75%;
+  margin-bottom: -120px;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 200px;
+  padding: 20px;
+  background: #ffffff;
+  border-color: #dddddd;
+  border-width: 1px;
+  border-style: solid;
+}
+.portfolio-mat img {
   width: 200px;
   height: 200px;
-  padding: 20px;
-  float: left;
-  position: relative;*/
 
 }
-.portfolio-mat {
-  position: relative;
-  margin: 0 auto;
-  max-width: 200px;
-}
-
-
 .img-1-msg {
-  position: absolute;
-  top: -30;
-  left: -90;
-  width: 100%;
-  padding: 20px;
-
-}
-
-.img-2 {
-  ]
-}
-
-/*
-.img-1 {
   position: relative;
+  bottom: 50px;
+  left: 0;
+  width: 200px;
+  height: 35px;
+  background: #4aaaa5;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  
+
+}
+.img-2-msg {
+  position: relative;
+  bottom: 50px;
+  left: 0;
+  width: 200px;
+  height: 35px;
+  background: #4aaaa5;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+
+}
+.img-3-msg {
+  position: relative;
+  bottom: 50px;
+  left: 0;
+  width: 200px;
+  height: 35px;
+  background: #4aaaa5;
+  text-align: center;
+  color: #ffffff;
+
+}
+.img-4-msg {
+  position: relative;
+  bottom: 50px;
+  left: 0;
+  width: 200px;
+  height: 35px;
+  background: #4aaaa5;
+  text-align: center;
+  color: #ffffff;
+
+}
+.img-5-msg {
+  position: relative;
+  bottom: 50px;
+  left: 0;
+  width: 200px;
+  height: 35px;
+  background: #4aaaa5;
+  text-align: center;
+  color: #ffffff;
+
 }
 
-.img-1 span {
-  position: absolute;
-  color: rgb(0, 255, 21);
-  top 40px;
-  right: 10px;
-  z-index: 2;
-
-}
-/*
-.img-2 {
-  position: absolute;
-  top: 30;
-  right: 15;
-}
-/*
-.img-3 {
-  position: absolute;
-}
-
-.img-4 {
-  bottom: 0;
-  right: 10;
-  position: absolute;
-}
-*/
-
+ 
