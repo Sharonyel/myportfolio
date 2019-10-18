@@ -38,7 +38,7 @@ List of Files
  ---
  
  
- Project source can be downloaded from ( add link from github ) 
+ Project source can be downloaded from (https://sharonyel.github.io/myportfolio/) 
  ---
  
  1. Open the index.html file in your browser to get the About Me page.  
