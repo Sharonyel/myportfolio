@@ -19,13 +19,17 @@ List of Files
   * index.html
   * portfolio.html
   * contact.html
-(should i list css and img files?)
+
  
  
  Code Exmaples:
  ---
  
- 
+ <img src="assets/images/samplecode1.png" width=300> 
+
+  <img src="assets/images/samplecode2.png" width=300>
+  
+   <img src="assets/images/samplecode3.png" width=300>
  
  
  
