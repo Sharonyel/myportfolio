@@ -28,7 +28,7 @@ List of Files
  <img src="assets/images/samplecode1.png" width=300> 
 
   <img src="assets/images/samplecode2.png" width=300>
-  
+
    <img src="assets/images/samplecode3.png" width=300>
  
  
@@ -46,10 +46,12 @@ List of Files
  
  
  1. Open the index.html file in your browser to get the About Me page.  
- 2. From there you can navagate using the links on the top left side to go to the other pages.
+ 2. From there you can navigate using the links on the top left side to go to the other pages.
  3. Read my Bio.
  4. Send me a message.
  5. Take a look at some of my work.
+
+ (* *to be updated later* *)
  
 Credits
 ---
