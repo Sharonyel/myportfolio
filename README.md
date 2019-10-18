@@ -7,7 +7,7 @@ My personal webpage that showcases who I am and what I have accomplished.
 Motivation
 ---
 
-This project exist because itis my homework for coding bootcamp.  But seriously, this is a way to promote my skill set in order to land a better job
+This project exist because it is my homework for coding bootcamp.  But seriously, this is a way to promote my skill set in order to land a better job
 
 Code Style
 ---
