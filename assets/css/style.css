@@ -8,7 +8,8 @@
   body {
   height: 960px;
   margin: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
+
   }
 
  .logo {
@@ -31,13 +32,15 @@ h1 {
     float: left;
     margin-bottom: 0px;
     margin-top: 0px;
-    margin-left: 32px;
     height: 70px;
     text-align: center;
     color: #ffffff;
+    /*line-height: 70px;*/
     position: fixed;
     top: 0;
     bottom: 0;
+    left: 52px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
@@ -118,13 +121,11 @@ footer, .content::after, .contact::after, .portfolio::after {
 }
 
 .green-footer {
+  border-top: 8px solid #4aaaa5;
   width: 100%;
-  background: #4aaaa5;
-  margin-bottom: 5px;
   bottom: 0;
   padding: 20px;
   position: fixed;
-  height: 6px;
 
 
 }
@@ -132,8 +133,8 @@ footer, .content::after, .contact::after, .portfolio::after {
   min-height: 50%;
   margin-bottom: -120px;
   margin-top: 100px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 52px;
+  margin-right: 52px;
   padding: 25px;
   background: #ffffff;
   border-color: #dddddd;
@@ -178,8 +179,8 @@ textarea {
 .portfolio-mat {
   min-height: 75%;
   margin-top: 100px;
-  margin-left: 150px;
-  margin-right: 200px;
+  margin-left: 52px;
+  margin-right: 52px;
   padding: 20px;
   background: #ffffff;
   border-color: #dddddd;
@@ -198,7 +199,7 @@ textarea {
   margin-right: 15px;
 
 }
-.img-1-msg {
+.img-msg {
   position: relative;
   bottom: 50px;
   left: 0;
@@ -206,54 +207,8 @@ textarea {
   height: 35px;
   background: #4aaaa5;
   text-align: center;
+  line-height: 35px;
   color: #ffffff;
   font-size: 20px;
 
 }
-.img-2-msg {
-  position: relative;
-  bottom: 50px;
-  left: 0;
-  width: 200px;
-  height: 35px;
-  background: #4aaaa5;
-  text-align: center;
-  color: #ffffff;
-  font-size: 20px;
-
-}
-.img-3-msg {
-  position: relative;
-  bottom: 50px;
-  left: 0;
-  width: 200px;
-  height: 35px;
-  background: #4aaaa5;
-  text-align: center;
-  color: #ffffff;
-
-}
-.img-4-msg {
-  position: relative;
-  bottom: 50px;
-  left: 0;
-  width: 200px;
-  height: 35px;
-  background: #4aaaa5;
-  text-align: center;
-  color: #ffffff;
-
-}
-.img-5-msg {
-  position: relative;
-  bottom: 50px;
-  left: 0;
-  width: 200px;
-  height: 35px;
-  background: #4aaaa5;
-  text-align: center;
-  color: #ffffff;
-
-}
-
- 
