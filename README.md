@@ -31,9 +31,8 @@ List of Files
  
  Screen shots of the output
  ---
-![](assets/images/screenshotcontact.png) 
-
  
+<img src="assets/images/screenshotcontact.png" width=300> 
  
  Project source can be downloaded from (https://sharonyel.github.io/myportfolio/) 
  ---
