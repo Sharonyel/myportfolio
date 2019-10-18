@@ -10,16 +10,18 @@ Motivation
 This project exist because itis my homework for coding bootcamp.  But seriously, this is a way to promote my skill set in order to land a better job
 
 Code Style
-  HTML CSS
+ * HTML
+ * CSS
   
 List of Files
-  index.html
-  portfolio.html
-  contact.html
- * should i list css and img files?
+  * index.html
+  * portfolio.html
+  * contact.html
+(should i list css and img files?)
  
  
- code exmaples:
+ Code Exmaples:
+ ..
  
  
  Screen shots of the output
