@@ -34,12 +34,14 @@ List of Files
  
  
  
- How to use the project
- ---
+
  
  
  Project source can be downloaded from (https://sharonyel.github.io/myportfolio/) 
  ---
+ 
+ ###How to use the project
+ 
  
  1. Open the index.html file in your browser to get the About Me page.  
  2. From there you can navagate using the links on the top left side to go to the other pages.
@@ -47,7 +49,9 @@ List of Files
  4. Send me a message.
  5. Take a look at some of my work.
  
- Credits
+ #Credits
+ 
+ Will be listed later
  
  
  
