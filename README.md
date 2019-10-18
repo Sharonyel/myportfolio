@@ -36,7 +36,9 @@ List of Files
  Screen shots of the output
  ---
  
+<img src="assets/images/screenshotaboutme.png" width=300> 
 <img src="assets/images/screenshotcontact.png" width=300> 
+<img src="assets/images/screenshotportfolio.png" width=300> 
  
  Project source can be downloaded from (https://sharonyel.github.io/myportfolio/) 
  ---
