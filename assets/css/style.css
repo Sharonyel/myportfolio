@@ -1,7 +1,6 @@
 /* CSS for My portfolio */
 
-* 
-{
+* {
     box-sizing: border-box;
 
   }
@@ -35,7 +34,6 @@ h1 {
     height: 70px;
     text-align: center;
     color: #ffffff;
-    /*line-height: 70px;*/
     position: fixed;
     top: 0;
     bottom: 0;
